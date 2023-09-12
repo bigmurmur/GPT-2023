@@ -5,11 +5,11 @@
 import os
 import openai
 import tiktoken
-openai.api_base="https://api.closeai-proxy.xyz/v1"
+openai.api_base="web"
 #from dotenv import load_dotenv,find_dotenv
 #load_dotenv(find_dotenv())
 # If you are concerned about security issues, please use the code above.
-openai.api_key="sk-IC2OJ7DsSiY0EziklaNNWlodCHwNEHd0Mr6O3Yx1l3Hsp70p"
+openai.api_key="key"
 
 def Get_completion(prompt,model="gpt-3.5-turbo"):
     messages=[{"role":"user","content":prompt}]
