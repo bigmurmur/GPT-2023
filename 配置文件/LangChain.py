@@ -6,8 +6,8 @@ from langchain.memory import *
 from langchain.output_parsers import ResponseSchema
 from langchain.output_parsers import StructuredOutputParser
 
-API_KEY="sk-IC2OJ7DsSiY0EziklaNNWlodCHwNEHd0Mr6O3Yx1l3Hsp70p"
-API_BASE="https://api.closeai-proxy.xyz/v1"
+API_KEY="key"
+API_BASE="web"
 
 def Create_ChatModel():
     chat_model = ChatOpenAI()
